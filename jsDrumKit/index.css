@@ -1,0 +1,40 @@
+
+.footer > h2{
+  color: white;
+}
+.header{
+  color: white;
+}
+
+.keyDiv{
+  border:solid black 5px;
+}
+
+.keyBtn{
+  border: solid black 3px;
+  margin-right: 10px;
+  transition: all 0.10s;
+}
+.keyBtn > h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
+.keyBtn > p{
+  text-align: center;
+  color: #ffc600;
+  text-shadow: 2px 2px 0px black;
+
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+  background: black;
+  color: #ffc600;
+}
+.main{
+  background: url('./index.jpg');
+  background-size : cover;
+}
